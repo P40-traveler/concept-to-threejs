@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151616">
+  <meta name="description" content="走进四座可离线探索的 Three.js 城镇：倒悬双城、雾海残钟、螺旋葬城与裂时之城。">
+  <title>钟停之后 · 四城展廊</title>
+  <style>
+    :root{color-scheme:dark;--bg:#151616;--ink:#f4efe4;--muted:#b6b5ad;--fine:#41433d;--gold:#e3b87e}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,"Microsoft YaHei",sans-serif}
+    .wrap{width:min(1240px,90%);margin:auto}
+    a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.3em}
+    a:focus-visible{outline:3px solid #ffd8a5;outline-offset:5px}
+    header,footer{display:flex;justify-content:space-between;align-items:center;gap:18px}
+    header{padding:22px 0;border-bottom:1px solid var(--fine);font-size:.88rem}
+    header span{letter-spacing:.08em}
+    header a,footer a{color:var(--muted)}
+    .intro{padding:clamp(40px,6vw,88px) 0 clamp(32px,5vw,62px)}
+    h1,h2{font-family:"Songti SC","STSong","SimSun",Georgia,serif;font-weight:500}
+    h1{font-size:clamp(3.1rem,7.2vw,6.2rem);line-height:1.06;letter-spacing:.06em;margin:0 0 20px}
+    .intro p{margin:0;color:var(--muted);max-width:46rem}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:44px clamp(20px,3vw,48px);padding-bottom:64px}
+    article{min-width:0}
+    .still{display:block;overflow:hidden;background:#272926;aspect-ratio:16/9}
+    .still img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease}
+    @media(hover:hover) and (prefers-reduced-motion:no-preference){.still:hover img{transform:scale(1.025)}}
+    h2{font-size:clamp(1.75rem,3vw,2.5rem);letter-spacing:.05em;line-height:1.25;margin:20px 0 7px}
+    article p{margin:0 0 15px;color:var(--muted);font-size:.96rem}
+    .actions{display:flex;gap:24px;align-items:center}
+    .play{color:var(--gold);font-weight:600}
+    .save{color:var(--muted);font-size:.9rem}
+    footer{border-top:1px solid var(--fine);padding:23px 0 40px;color:var(--muted);font-size:.85rem}
+    @media(max-width:670px){.wrap{width:90%}.grid{grid-template-columns:1fr;gap:35px;padding-bottom:40px}header{padding:16px 0}footer{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body><div class="wrap">
+  <header><span>CONCEPT TO THREE.JS</span><a href="https://github.com/P40-traveler/concept-to-threejs">项目与制作说明 ↗</a></header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <h1 id="title">钟停之后</h1>
+      <p>四座可以走进去的城。从镜池水面、雾中码头、地下长街，到日夜交界的河谷。任选一座在线游览，也可以下载单个 HTML，断网后用支持 WebGL2 的浏览器打开。</p>
+    </section>
+    <div class="grid">
+      <article>
+        <a class="still" href="../scenes/mirror.html" aria-label="进入倒悬双城"><img src="images/mirror.webp" alt="石桥与古城倒映在水面，另一座倒悬的钟楼从天顶垂下。" width="960" height="540"></a>
+        <h2>倒悬双城</h2><p>贴着镜池看两岸倒影，再飞到头顶那座城的钟面前。</p>
+        <div class="actions"><a class="play" href="../scenes/mirror.html">进入双城 →</a><a class="save" href="../scenes/mirror.html" download="倒悬双城.html">下载 HTML</a></div>
+      </article>
+      <article>
+        <a class="still" href="../scenes/fog.html" aria-label="进入雾海残钟"><img src="images/fog.webp" alt="雾海中的倾斜钟塔被两道断开的石环环绕，天际透出星潮。" width="960" height="540"></a>
+        <h2>雾海残钟</h2><p>从旧码头飞过断环。拖动星潮滑杆，看雾色和天空一起变换。</p>
+        <div class="actions"><a class="play" href="../scenes/fog.html">进入雾港 →</a><a class="save" href="../scenes/fog.html" download="雾海残钟.html">下载 HTML</a></div>
+      </article>
+      <article>
+        <a class="still" href="../scenes/spiral.html" aria-label="进入螺旋葬城"><img src="images/spiral.webp" alt="环形石街沿深井螺旋下降，铜日轮嵌在井底。" width="960" height="540" loading="lazy"></a>
+        <h2>螺旋葬城</h2><p>从井沿俯望环形拱廊，再顺着送葬道，下到铜日轮所在的深处。</p>
+        <div class="actions"><a class="play" href="../scenes/spiral.html">进入葬城 →</a><a class="save" href="../scenes/spiral.html" download="螺旋葬城.html">下载 HTML</a></div>
+      </article>
+      <article>
+        <a class="still" href="../index.html" aria-label="进入裂时之城"><img src="images/chrono.webp" alt="日落与靛蓝月夜下的拱桥、钟楼和星历院横跨河谷。" width="960" height="540" loading="lazy"></a>
+        <h2>裂时之城</h2><p>从桥头横移，看两截石廊错开，随后穿过旧市集，登上东岸星历院。</p>
+        <div class="actions"><a class="play" href="../index.html">进入阶城 →</a><a class="save" href="../index.html" download="裂时之城.html">下载 HTML</a></div>
+      </article>
+    </div>
+  </main>
+  <footer><span>四张封面均取自场景实机画面。</span><a href="https://github.com/P40-traveler/concept-to-threejs/tree/main/examples/chronotown">查看《裂时之城》的布局、灰模与建模参考 ↗</a></footer>
+</div></body>
+</html>

@@ -1,8 +1,15 @@
 # Concept to Three.js
 
-给 Codex 一张美术概念图，让它为同一个世界画出三种布局，选定其中一种，协调不同区域的建模，交付一个可以断网打开、自由飞行和切换灯光的 Three.js HTML。下面的《裂时之城》是用这套流程做出的完整实例。
+给 Codex 一张美术概念图，让它为同一个世界画出三种布局，选定其中一种，协调不同区域的建模，交付一个可以断网打开、自由探索的 Three.js HTML。《钟停之后》收录了用这套流程做出的四座城。《裂时之城》另附从选案到单灯验收的完整案例。
 
-**[在线试玩《裂时之城》](https://p40-traveler.github.io/concept-to-threejs/)** · **[下载 skill 安装包](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/concept-to-threejs.zip)** · **[下载离线 HTML](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/chronotown.html)** · **[看案例和原始提示词](examples/chronotown/README.md)**
+**[进入四城展廊](https://p40-traveler.github.io/concept-to-threejs/gallery/)** · **[下载 skill 安装包](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/concept-to-threejs.zip)** · **[看案例和原始提示词](examples/chronotown/README.md)**
+
+| 场景 | 去哪里看 | 下载后可断网打开 |
+| --- | --- | --- |
+| [倒悬双城](https://p40-traveler.github.io/concept-to-threejs/scenes/mirror.html) | 从镜池和水岸拱廊飞向头顶倒悬的钟楼。 | [倒悬双城.html](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/mirror.html) |
+| [雾海残钟](https://p40-traveler.github.io/concept-to-threejs/scenes/fog.html) | 从码头望向断环，在同一机位拖动星潮滑杆。 | [雾海残钟.html](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/fog.html) |
+| [螺旋葬城](https://p40-traveler.github.io/concept-to-threejs/scenes/spiral.html) | 绕井下行，观察拱廊叠层和井底的铜日轮。 | [螺旋葬城.html](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/spiral.html) |
+| [裂时之城](https://p40-traveler.github.io/concept-to-threejs/) | 从河谷市集仰望错时断廊，再去东岸星历院。 | [裂时之城.html](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/chronotown.html) |
 
 ![《裂时之城》离线实机演示。镜头绕到断廊侧面，在河谷市集切换灯光和光追，然后飞近西岸钟楼。](examples/chronotown/media/tour.webp)
 
