@@ -1,0 +1,4 @@
+interface:
+  display_name: "概念图到可探索的 Three.js 场景"
+  short_description: "从三种空间布局到分区建模、单灯验收与可离线探索的 Three.js 场景"
+  default_prompt: "用 $concept-to-threejs 将这些概念图制作成可离线自由探索的 Three.js 场景，包含可切换的灯光和光追。"
