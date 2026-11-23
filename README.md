@@ -2,7 +2,7 @@
 
 给 Codex 一张美术概念图，让它为同一个世界画出三种布局，选定其中一种，协调不同区域的建模，交付一个可以断网打开、自由飞行和切换灯光的 Three.js HTML。下面的《裂时之城》是用这套流程做出的完整实例。
 
-**[下载 skill 安装包](https://github.com/P40-traveler/concept-to-threejs/raw/refs/heads/main/downloads/concept-to-threejs.zip)** · **[下载可玩的单文件场景](https://github.com/P40-traveler/concept-to-threejs/raw/refs/heads/main/docs/index.html)** · **[看案例和原始提示词](examples/chronotown/README.md)**
+**[在线试玩《裂时之城》](https://p40-traveler.github.io/concept-to-threejs/)** · **[下载 skill 安装包](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/concept-to-threejs.zip)** · **[下载离线 HTML](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/chronotown.html)** · **[看案例和原始提示词](examples/chronotown/README.md)**
 
 ![《裂时之城》离线实机演示。镜头绕到断廊侧面，在河谷市集切换灯光和光追，然后飞近西岸钟楼。](examples/chronotown/media/tour.webp)
 

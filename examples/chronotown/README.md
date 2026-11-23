@@ -2,7 +2,7 @@
 
 两截石廊从一个指定机位看似接合。玩家横移后，断口和前后距离才一起显现。把概念图里的「时空断裂」变成一个需要玩家移动才能察觉的空间事件，决定了这座城的布局和镜头。
 
-**[下载互动场景](https://github.com/P40-traveler/concept-to-threejs/raw/refs/heads/main/docs/index.html)** · **[观看实机换灯与视角演示](media/tour.webp)** · **[查看三个模型组的实际任务单](art/briefs.md)**
+**[在线探索这座城](https://p40-traveler.github.io/concept-to-threejs/)** · **[下载离线场景](https://github.com/P40-traveler/concept-to-threejs/releases/latest/download/chronotown.html)** · **[观看实机换灯与视角演示](media/tour.webp)** · **[查看三个模型组的实际任务单](art/briefs.md)**
 
 ## 三个候选布局
 
